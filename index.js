@@ -3,6 +3,9 @@ const app = express();
 const path = require('path');
 const ejsMate = require('ejs-mate');
 
+
+require('dotenv').config()
+
 const homeTitle = "Welcome | Emre Turan ";
 const aboutTitle = "About | Emre Turan ";
 const contactTitle = "Let's Talk ";

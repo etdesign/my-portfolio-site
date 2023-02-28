@@ -11761,7 +11761,11 @@ textarea.form-control-lg {
 }
 
 nav a.nav-link:hover {
-  color: rgba(39, 121, 156, 0.5);
+  color: #27799C;
+}
+
+.navbar-toggler {
+  background-color: #F5F5F7;
 }
 
 @media (max-width: 575px) {
@@ -11775,14 +11779,14 @@ nav a.nav-link:hover {
 }
 @media (max-width: 575px) {
   .navbar-toggler[aria-expanded=true] ~ .navbar-collapse .nav-link {
-    color: #fff;
+    color: #F5F5F7;
     background-color: #17120f;
   }
   .navbar-toggler[aria-expanded=true] ~ .navbar-collapse .nav-link:hover {
     color: #27799C;
   }
   .navbar-toggler[aria-expanded=true] ~ .navbar-collapse .nav-link.active {
-    color: #fff;
+    color: #F5F5F7;
     background-color: #17120f;
   }
   .navbar-toggler[aria-expanded=true] ~ .navbar-collapse .nav-link.active:hover {
