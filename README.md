@@ -2,7 +2,7 @@
 
 <p>This is a showcase of my work and experience as a web developer. Users can browse my portfolio projects by clicking on the "Work" link in the navigation menu. To view the website, simply navigate to <a href="https://www.emreturan.dev" target="_blank">emreturan.dev</a>  in your web browser. </p>
 
-<p>If you have any questions or feedback about my website, feel free to reach out to me using the contact form on the website. Thank you for visiting! </p>
+<p>If you have any questions or feedback about my website, feel free to reach out to me using the links on the website. Thank you for visiting! </p>
 
 <ul>
   <li>Technologies that I used:</li>
