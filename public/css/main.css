@@ -11924,6 +11924,11 @@ footer a.nav-link:hover {
   padding: 50px;
 }
 
+.card-svg {
+  height: 70%;
+  width: auto;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
