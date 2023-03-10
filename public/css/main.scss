@@ -3,7 +3,8 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
-$font-family-base: -apple-system, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-base: -apple-system, "SF Pro Display", "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif;
 $font-weight-bold: 700;
 $font-weight-semi-bold: 600;
 $font-weight-regular: 500;
@@ -11,38 +12,33 @@ $font-weight-medium: 400;
 $font-weight-light: 300;
 $font-weight-thin: 200;
 
-$white-text: #F5F5F7;
+$white-text: #f5f5f7;
 $black-text: #17120f;
 
-
-
-
 @import "~bootstrap/scss/bootstrap";
-
-
 
 // Then add additional custom code here
 
 ///////Default Font Size Classes ////////
 
 .thin {
-    font-weight: $font-weight-thin;
-  }
+  font-weight: $font-weight-thin;
+}
 .light {
-    font-weight: $font-weight-light;
-  }
+  font-weight: $font-weight-light;
+}
 .medium {
-    font-weight: $font-weight-medium;
-  }
+  font-weight: $font-weight-medium;
+}
 .regular {
-    font-weight: $font-weight-regular;
-  }
+  font-weight: $font-weight-regular;
+}
 .semi-bold {
-    font-weight: $font-weight-semi-bold;
-  }
+  font-weight: $font-weight-semi-bold;
+}
 .bold {
-    font-weight: $font-weight-bold;
-  }
+  font-weight: $font-weight-bold;
+}
 .white-text {
   color: $white-text;
 }
@@ -50,102 +46,91 @@ $black-text: #17120f;
   color: $black-text;
 }
 
-
 /////////////////// Navbar //////////////
 
-  .navbar {
-    height: 130px;
-  }
+.navbar {
+  height: 130px;
+}
 
-  nav a.nav-link {
-  
-    &:hover {
-      color: #27799C ;
-      
-    }
+nav a.nav-link {
+  &:hover {
+    color: #27799c;
   }
+}
 .navbar-toggler {
-    background-color: $white-text;
-  }
+  background-color: $white-text;
+}
 
-
-  @media(max-width: 575px) {
-    .navbar {
-      background: #17120f;
-      .navbar-brand img {
-        content: url("/images/SF Pro Bold Dark.svg");
-        width: 110px;
-      }
+@media (max-width: 575px) {
+  .navbar {
+    background: #17120f;
+    .navbar-brand img {
+      content: url("/images/SF Pro Bold Dark.svg");
+      width: 110px;
     }
   }
+}
 
-  @media (max-width: 575px) {
-    .navbar-toggler[aria-expanded="true"] ~ .navbar-collapse .nav-link {
-      color: $white-text;
-      background-color: $black-text;
-      
-    }
-    
-    .navbar-toggler[aria-expanded="true"] ~ .navbar-collapse .nav-link:hover {
-      color: #27799C;
-    }
-    
-    .navbar-toggler[aria-expanded="true"] ~ .navbar-collapse .nav-link.active {
-      color: $white-text;
-      background-color: $black-text;
-    }
-    
-    .navbar-toggler[aria-expanded="true"] ~ .navbar-collapse .nav-link.active:hover {
-      color: #27799C;
-    }
-  }
-   
-  
-  
-  
-  /////////////////// Brand Logo //////////////
-
-  .logo {
-
-    width: 150px; 
-    height: auto; 
-    max-width: 100%; 
-    max-height: 100%; 
+@media (max-width: 575px) {
+  .navbar-toggler[aria-expanded="true"] ~ .navbar-collapse .nav-link {
+    color: $white-text;
+    background-color: $black-text;
   }
 
+  .navbar-toggler[aria-expanded="true"] ~ .navbar-collapse .nav-link:hover {
+    color: #27799c;
+  }
 
-  /////////////////// Skills ////////////// 
+  .navbar-toggler[aria-expanded="true"] ~ .navbar-collapse .nav-link.active {
+    color: $white-text;
+    background-color: $black-text;
+  }
 
+  .navbar-toggler[aria-expanded="true"]
+    ~ .navbar-collapse
+    .nav-link.active:hover {
+    color: #27799c;
+  }
+}
 
-  #Skills {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+/////////////////// Brand Logo //////////////
 
-    .icon-card {
-        margin: 1rem;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-        transition: transform 0.2s ease-in-out;
-    }
-    .icon-card:hover {
-      transform: scale(1.2);
-    }
-   
+.logo {
+  width: 150px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
 
+/////////////////// Skills //////////////
+
+#Skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .icon-card {
+    margin: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  .icon-card:hover {
+    transform: scale(1.2);
+  }
 }
 
 button {
-  background-color: #27799C;
+  background-color: #27799c;
 }
 
-.hello{
+.hello {
   padding: 100px;
 }
 
-/////////////////// Buttons ////////////// 
-.download-container{
+/////////////////// Buttons //////////////
+.download-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,20 +146,19 @@ button {
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  
 
   &:hover {
-    background-color: #27799C;
+    background-color: #27799c;
     color: white;
   }
 }
 
-.contact-container{
+.contact-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  }
-  
+}
+
 .contact-button {
   padding: 1rem 2rem;
   background-color: white;
@@ -185,30 +169,29 @@ button {
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  
+
   &:hover {
-  background-color: #27799C;
-  color: white;
+    background-color: #27799c;
+    color: white;
   }
-  }
+}
 ////////////// Contact Page/////////
 
-#contact{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
-    .container {
-        margin: 1rem;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-
+  .container {
+    margin: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
   }
-}  
-  
-/////////////////// Footer  ////////////// 
-  
+}
+
+/////////////////// Footer  //////////////
+
 #social {
   .bi {
     margin: 1rem;
@@ -221,19 +204,13 @@ button {
   .bi:hover {
     transform: scale(1.2);
   }
-
- 
 }
-
 
 footer a.nav-link {
-  
   &:hover {
-    color: #27799C ;
+    color: #27799c;
   }
- 
 }
-  
 
 #copyright {
   font-size: 0.625rem;
@@ -243,49 +220,44 @@ footer a.nav-link {
     transition: all 0.2s ease-in-out;
   }
   a:hover {
-    color: #27799C !important;
+    color: #27799c !important;
   }
 }
 
 //////  Cards   ////////////
-  
+
 .card-link {
   text-decoration: none;
-  color:black;
+  color: black;
   display: inline-block;
 
   &:hover {
-  color: #27799C;  
-}
+    color: #27799c;
+  }
 }
 
 .card-text {
-   font-size: smaller;
+  font-size: smaller;
 }
 
-.card-img-top{
-  padding: 50px;
- 
+.card-img-top {
+  padding: 20px;
 }
 
 .card-svg {
-  height: 70%;
+  height: 69%;
   width: auto;
 }
 
-
-
 ///////////// back to top  /////////////
 
-  #btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-  }
-  
-  .text-white a {
-    color: #ffffff;
-  }
-  
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
 
+.text-white a {
+  color: #ffffff;
+}

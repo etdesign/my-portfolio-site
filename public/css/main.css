@@ -11749,7 +11749,7 @@ textarea.form-control-lg {
 }
 
 .white-text {
-  color: #F5F5F7;
+  color: #f5f5f7;
 }
 
 .black-text {
@@ -11761,11 +11761,11 @@ textarea.form-control-lg {
 }
 
 nav a.nav-link:hover {
-  color: #27799C;
+  color: #27799c;
 }
 
 .navbar-toggler {
-  background-color: #F5F5F7;
+  background-color: #f5f5f7;
 }
 
 @media (max-width: 575px) {
@@ -11779,18 +11779,18 @@ nav a.nav-link:hover {
 }
 @media (max-width: 575px) {
   .navbar-toggler[aria-expanded=true] ~ .navbar-collapse .nav-link {
-    color: #F5F5F7;
+    color: #f5f5f7;
     background-color: #17120f;
   }
   .navbar-toggler[aria-expanded=true] ~ .navbar-collapse .nav-link:hover {
-    color: #27799C;
+    color: #27799c;
   }
   .navbar-toggler[aria-expanded=true] ~ .navbar-collapse .nav-link.active {
-    color: #F5F5F7;
+    color: #f5f5f7;
     background-color: #17120f;
   }
   .navbar-toggler[aria-expanded=true] ~ .navbar-collapse .nav-link.active:hover {
-    color: #27799C;
+    color: #27799c;
   }
 }
 .logo {
@@ -11817,7 +11817,7 @@ nav a.nav-link:hover {
 }
 
 button {
-  background-color: #27799C;
+  background-color: #27799c;
 }
 
 .hello {
@@ -11842,7 +11842,7 @@ button {
   transition: all 0.2s ease-in-out;
 }
 .download-button:hover {
-  background-color: #27799C;
+  background-color: #27799c;
   color: white;
 }
 
@@ -11864,7 +11864,7 @@ button {
   transition: all 0.2s ease-in-out;
 }
 .contact-button:hover {
-  background-color: #27799C;
+  background-color: #27799c;
   color: white;
 }
 
@@ -11892,7 +11892,7 @@ button {
 }
 
 footer a.nav-link:hover {
-  color: #27799C;
+  color: #27799c;
 }
 
 #copyright {
@@ -11904,7 +11904,7 @@ footer a.nav-link:hover {
   transition: all 0.2s ease-in-out;
 }
 #copyright a:hover {
-  color: #27799C !important;
+  color: #27799c !important;
 }
 
 .card-link {
@@ -11913,7 +11913,7 @@ footer a.nav-link:hover {
   display: inline-block;
 }
 .card-link:hover {
-  color: #27799C;
+  color: #27799c;
 }
 
 .card-text {
@@ -11921,11 +11921,11 @@ footer a.nav-link:hover {
 }
 
 .card-img-top {
-  padding: 50px;
+  padding: 20px;
 }
 
 .card-svg {
-  height: 70%;
+  height: 69%;
   width: auto;
 }
 
